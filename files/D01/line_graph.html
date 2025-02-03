@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D01-Line Graph</title>
+  <link href="line_graph.css" rel="stylesheet">
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <main>
+		<section class="header">
+			<a href="../../index.html" class="back">
+				<span>← Back</span>
+			</a>
+			<h1>Building a line chart</h1>
+			<span class="date">February 3, 2025</span>
+		</section>
+		<section class="introduction">
+      <p>
+        Today, I recreated a line chart from <a
+          href="https://www.oecd.org/en/data/indicators/unemployment-rate.html"
+          class="external" ;>OECD</a> unemployment rate.
+        The data was sourced from data.world.
+      </p>
+    </section>
+    <section class="visualization">
+      <h2>Visualization</h2>
+      <div id="container1" class="container">
+      </div>
+    </section>
+    </div>
+    <section class="conclusion">
+      <h3>Highlights</h3>
+      <p>
+        This is my first time building a line graph, and I love it when I can add an area
+        to it. What I liked most about this session was the opportunity to use <b>d3.scaleUtc</b>, which
+        should be preferred as it behaves more predictably: days are always twenty four hours are and
+        the scale does not depend on the browsers's time zone.
+      </p>
+      <ul>
+        <li>For the curious, take a look: <a
+            href="https://d3js.org/d3-scale/time" class="external">d3.scaleUtc</a>
+        </li>
+      </ul>
+    </section>
+	</main>
+  <script type="module" src="line-graph.js"></script>
+</body>
+</html>
