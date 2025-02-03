@@ -1,6 +1,6 @@
 # Building-With-D3
 
-Each day I'll be buiding a data visualization that from Data World or Monday Makeover database. Regardless of the way it was visualized or the tools that were used, I'll try to recreate it using D3.js.
+Each day I'll be buiding a data visualization from Data World or Monday Makeover database. Regardless of the way it was visualized or the tools that were used, I'll try to recreate it using D3.js.
 
 It's a personal challenge to keep learning: https://juanchiparra.github.io/recreating-with-d3/
 
